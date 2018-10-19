@@ -1,0 +1,35 @@
+  h1 { 
+    color: gold; Font-size: 80px; 
+  }
+  h2 {
+    color: pink;
+   }
+   h3{color: black; Font-size:10px;
+     
+   }
+  p {
+    font-size: 15px;
+    color: #992050;
+  }
+   li {
+     font-size: 20px;
+    color: #992050;
+   }
+  a {font-size: 20px;
+     
+   }
+   .black-background {
+    background-color:#102031;
+  }
+  .poem {
+    border-style: solid;
+    border-color: #400040;
+    width: 75%;
+    position: relative;
+    left: 180px;
+    border-width: 5px;
+    text-align: left;
+  }
+  #wrap-up {
+    background-color:#002520;
+  }
