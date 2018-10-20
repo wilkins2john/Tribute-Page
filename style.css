@@ -1,35 +1,61 @@
-  h1 { 
-    color: gold; Font-size: 80px; 
-  }
-  h2 {
-    color: pink;
-   }
-   h3{color: black; Font-size:10px;
-     
-   }
-  p {
-    font-size: 15px;
-    color: #992050;
-  }
-   li {
-     font-size: 20px;
-    color: #992050;
-   }
-  a {font-size: 20px;
-     
-   }
-   .black-background {
-    background-color:#102031;
-  }
-  .poem {
-    border-style: solid;
-    border-color: #400040;
-    width: 75%;
-    position: relative;
-    left: 180px;
-    border-width: 5px;
-    text-align: left;
-  }
-  #wrap-up {
-    background-color:#002520;
-  }
+body {
+  min-width: 250px;
+  text-align: center;
+  color: bisque;
+  background-color:#002520;
+}
+h1 { 
+  margin: auto;
+  Font-size: 80px;
+  border: #fff solid 5px; 
+  width: 50%;
+}
+h2 {
+  color: pink;
+} 
+p {
+  font-size: 15px;
+}
+ul, li {
+  font-size: 20px;
+  color: #992050;
+}
+ul {
+  max-width:550px;
+  margin:0 auto;
+  text-align:center;
+}
+li {
+  margin: 10px;
+}
+a {
+  font-size: 20px;
+}
+a:hover {
+  color: red;
+}
+
+/* ---Class Selector--- */
+.image {
+  width: 55%;
+}
+.poem {
+  border-style: solid;
+  border-color: #400040;
+  width: 300px;
+  margin: auto;
+  font-size: 20px;
+  /* position: relative;
+  left: 180px; */
+  border-width: 5px;
+  text-align: left;
+}
+
+/* ---ID Selector--- */
+#main {
+  margin: 30px, auto;
+}
+
+#img-caption {
+  margin: 15px;
+}
